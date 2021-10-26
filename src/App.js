@@ -7,6 +7,7 @@ const App = () => {
     {
       Array(100).fill(null).map((curr,idx) => <FizzBuzz key={idx} number={idx+1} />)
     }
+    <div>This is my footer</div>
     </div>
   );
 }
